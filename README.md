@@ -1,7 +1,3 @@
-Claro, aqui está o README em português e inglês:
-
----
-
 # 🚀 Script de Automação Git
 
 Este script Python foi desenvolvido para automatizar o processo de commits Git em um repositório. O script realiza as seguintes operações:
