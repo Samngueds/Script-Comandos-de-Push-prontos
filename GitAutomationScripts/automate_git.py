@@ -1,7 +1,7 @@
 import os
 
 # Absolute path of the directory
-directory = 'Seu-diretorio-aqui'
+directory = 'here-you-directory'
 
 # List only file names in the directory
 files = [file for file in os.listdir(directory) if os.path.isfile(os.path.join(directory, file))]
