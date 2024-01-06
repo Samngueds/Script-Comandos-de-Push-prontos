@@ -1,7 +1,7 @@
 import os
 
 # Absolute path of the directory
-directory = 'C:\\Users\\Administrator\\Documents\\Git and Github\\Dio-challenge-First-Repository\\Basic-styling-with-CSS\\element-backgrounds\\Resizing-Background-Images-of-Elements'
+directory = 'Seu-diretorio-aqui'
 
 # List only file names in the directory
 files = [file for file in os.listdir(directory) if os.path.isfile(os.path.join(directory, file))]
