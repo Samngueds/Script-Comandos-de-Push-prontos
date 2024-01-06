@@ -1,7 +1,7 @@
 import os
 
 # Caminho absoluto do diretório
-diretorio = 'C:\\Users\\Administrador\\Documents\\Git e Github\\Dio-desafio-De-primerio-Repositorio\\Estilizações basicas com Css\\fundo-dos-elementos\\Redimensionando-as-Imagens-de-Fundo-dos-Elementos'
+diretorio = 'Aqui-o-seu-Diretorio'
 
 # Lista apenas os nomes de arquivos no diretório
 arquivos = [arquivo for arquivo in os.listdir(diretorio) if os.path.isfile(os.path.join(diretorio, arquivo))]
