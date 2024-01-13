@@ -13,7 +13,7 @@ html_files = [file for file in files if file.endswith('.html')]
 if html_files:
     for html_file in html_files:
         with open(os.path.join(directory, html_file), 'r', encoding='utf-8') as file:
-            # Extract the title from HTML (a simple approach)
+            
             lines = file.readlines()
             for line in lines:
                 if '<title>' in line:
