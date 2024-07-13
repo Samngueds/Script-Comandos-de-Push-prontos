@@ -3,7 +3,7 @@
 Este script Python foi desenvolvido para automatizar o processo de commits Git em um repositório. O script realiza as seguintes operações:
 
 1. **Adição de Arquivos de Imagem:**
-   - Identifica e adiciona arquivos de imagem com extensões `.png`, `.jpg` e `.jpeg` ao repositório.
+   - Identifica e adiciona arquivos de imagem com extensões `.png`, `.jpg` e `.jpeg` `.web` `.ico`  ao repositório.
    - Cria um commit com a mensagem "🌟 Arquivos de imagem de exemplo" para esses arquivos.
 
 2. **Adição de Arquivos HTML:**
@@ -14,7 +14,11 @@ Este script Python foi desenvolvido para automatizar o processo de commits Git e
    - Identifica e adiciona arquivos CSS ao repositório.
    - Cria um commit com a mensagem "🎨 Arquivo CSS de exemplo" para esses arquivos.
 
-4. **Push para o Repositório Remoto:**
+4. **Adição de Outros Arquivos:**
+   - Identifica e Outros Arquivos repositório.
+   - Cria um commit com a mensagem "Outros Arquivos" para esses arquivos.
+
+5. **Push para o Repositório Remoto:**
    - Realiza o push das alterações para o repositório remoto na branch `main`.
 
 ## Como Usar
