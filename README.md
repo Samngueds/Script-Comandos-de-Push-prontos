@@ -38,14 +38,12 @@ python automatiza_git.py
 
 Certifique-se de ajustar o caminho do diretório no script para refletir o caminho absoluto do seu ambiente local.
 
----
-
 # 🚀 Git Automation Script
 
-This Python script is designed to automate the Git commit process in a repository. The script performs the following operations:
+This Python script automates the Git commit process for a repository. The script performs the following operations:
 
 1. **Adding Image Files:**
-   - Identifies and adds image files with `.png`, `.jpg`, and `.jpeg` extensions to the repository.
+   - Identifies and adds image files with extensions `.png`, `.jpg`, `.jpeg`, `.webp`, `.ico` to the repository.
    - Creates a commit with the message "🌟 Example image files" for these files.
 
 2. **Adding HTML Files:**
@@ -56,18 +54,22 @@ This Python script is designed to automate the Git commit process in a repositor
    - Identifies and adds CSS files to the repository.
    - Creates a commit with the message "🎨 Example CSS file" for these files.
 
-4. **Pushing to the Remote Repository:**
+4. **Adding Other Files:**
+   - Identifies and adds other files to the repository.
+   - Creates a commit with the message "Other Files" for these files.
+
+5. **Push to Remote Repository:**
    - Pushes the changes to the remote repository on the `main` branch.
 
 ## How to Use
 
-1. Ensure you have Python installed on your system.
+1. Make sure you have Python installed on your system.
 2. Clone this repository to your local environment.
-3. Run the provided Python script (`automate_git.py`) in the terminal.
+3. Run the provided Python script (`automatiza_git.py`) in the terminal.
 
-```bash
-python automate_git.py
-```
+   ```bash
+   python automatiza_git.py
+   ```
 
 4. The script will generate a file named `git_commands.bat` with the necessary Git commands.
 5. Execute the `git_commands.bat` file in the terminal to apply the Git operations.
